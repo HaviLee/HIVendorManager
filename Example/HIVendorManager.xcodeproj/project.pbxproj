@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1BB0BDEF20C2A110102D05 /* libPods-HIVendorManager_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED51B16F30BED2485CEA5BF /* libPods-HIVendorManager_Example.a */; };
+		5A741FD426FFE9DAB4CAD524 /* libPods-HIVendorManager_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA8309412425C41E9973F63 /* libPods-HIVendorManager_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AB148A1E88A4C4EDB7242728 /* Pods_HIVendorManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C8A545B5C57C5AD2E1A11A /* Pods_HIVendorManager_Tests.framework */; };
-		FF306EC599F8EC7826DBC553 /* Pods_HIVendorManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D507193A3F15743EAADFCE2 /* Pods_HIVendorManager_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0EB78875B12FD35FE0B1F482 /* Pods-HIVendorManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIVendorManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-HIVendorManager_Example/Pods-HIVendorManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1BA8309412425C41E9973F63 /* libPods-HIVendorManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HIVendorManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		428F547AA5256C1DE4C1D20A /* Pods-HIVendorManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIVendorManager_Example.release.xcconfig"; path = "Target Support Files/Pods-HIVendorManager_Example/Pods-HIVendorManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HIVendorManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIVendorManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,13 +41,12 @@
 		607FACE51AFB9204008FA782 /* HIVendorManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIVendorManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7AC275A66B92D357C31957A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7AC275A66B92D357C31957A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8AB8200BE1C5F5BEC625424C /* Pods-HIVendorManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIVendorManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-HIVendorManager_Tests/Pods-HIVendorManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D507193A3F15743EAADFCE2 /* Pods_HIVendorManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIVendorManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C8A545B5C57C5AD2E1A11A /* Pods_HIVendorManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIVendorManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7644835AFC6719562598E3A /* Pods-HIVendorManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIVendorManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HIVendorManager_Tests/Pods-HIVendorManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED3008AB775C7B103CAC5F0D /* HIVendorManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HIVendorManager.podspec; path = ../HIVendorManager.podspec; sourceTree = "<group>"; };
-		F00568B743A485DB2F2DC6ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ED3008AB775C7B103CAC5F0D /* HIVendorManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HIVendorManager.podspec; path = ../HIVendorManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F00568B743A485DB2F2DC6ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FED51B16F30BED2485CEA5BF /* libPods-HIVendorManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HIVendorManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF306EC599F8EC7826DBC553 /* Pods_HIVendorManager_Example.framework in Frameworks */,
+				4A1BB0BDEF20C2A110102D05 /* libPods-HIVendorManager_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB148A1E88A4C4EDB7242728 /* Pods_HIVendorManager_Tests.framework in Frameworks */,
+				5A741FD426FFE9DAB4CAD524 /* libPods-HIVendorManager_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 				E7644835AFC6719562598E3A /* Pods-HIVendorManager_Tests.debug.xcconfig */,
 				8AB8200BE1C5F5BEC625424C /* Pods-HIVendorManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,8 +153,8 @@
 		7673B32C8DBF9A7FB208C25C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D507193A3F15743EAADFCE2 /* Pods_HIVendorManager_Example.framework */,
-				E2C8A545B5C57C5AD2E1A11A /* Pods_HIVendorManager_Tests.framework */,
+				FED51B16F30BED2485CEA5BF /* libPods-HIVendorManager_Example.a */,
+				1BA8309412425C41E9973F63 /* libPods-HIVendorManager_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				07465EBF00CDD3E0B96ED3EB /* [CP] Embed Pods Frameworks */,
+				B62CB97B9AC3769179A66D46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,24 +262,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07465EBF00CDD3E0B96ED3EB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HIVendorManager_Example/Pods-HIVendorManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HIVendorManager/HIVendorManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HIVendorManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HIVendorManager_Example/Pods-HIVendorManager_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		58569B388B74F87CF74C0C49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +282,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62CB97B9AC3769179A66D46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HIVendorManager_Example/Pods-HIVendorManager_Example-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HIVendorManager_Example/Pods-HIVendorManager_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B640670FEDCB90FE943EC7A3 /* [CP] Check Pods Manifest.lock */ = {
