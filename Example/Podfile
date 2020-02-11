@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HIVendorManager_Example' do
+  pod 'HIVendorManager', :path => '../'
+
+  target 'HIVendorManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
