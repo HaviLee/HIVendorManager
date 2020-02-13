@@ -8,7 +8,7 @@ PODS:
     - AMapFoundation (~> 1.6.1)
   - AMapSearch (7.1.0):
     - AMapFoundation (~> 1.4)
-  - HIVendorManager (0.1.0):
+  - HIVendorManager (0.1.2):
     - AMap3DMap
     - AMapLocation
     - AMapNavi
@@ -39,8 +39,8 @@ SPEC CHECKSUMS:
   AMapLocation: b4162db67f813508a14ee7e05c7ee4073785221d
   AMapNavi: 4667acc6dd1da5fee08aceb2071e1547efaf1bc5
   AMapSearch: 6bd6d361c5eb00110e0bffa4acf88b7bb9f7e059
-  HIVendorManager: 315c15c520d4698fc7a5869c42ca1f65545dfac8
+  HIVendorManager: 6f79a49c06ff85b2594d1de900d676fb459aded7
 
-PODFILE CHECKSUM: 8d7fbdf01a4ac9894a322bddb26f99bb1a971878
+PODFILE CHECKSUM: ff8cc77d81176c3db706a9985a73010f4fa86ff2
 
 COCOAPODS: 1.8.4
