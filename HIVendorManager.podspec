@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HIVendorManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'VendorManager is wrapper for third framework for wechat/amap/alipay'
 
 # This description is used to generate tags and improve search results.
