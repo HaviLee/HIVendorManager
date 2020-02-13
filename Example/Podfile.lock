@@ -4,13 +4,21 @@ PODS:
   - AMapFoundation (1.6.2)
   - AMapLocation (2.6.4):
     - AMapFoundation (~> 1.6.1)
+  - AMapNavi (7.2.0):
+    - AMapFoundation (~> 1.6.1)
+  - AMapSearch (7.1.0):
+    - AMapFoundation (~> 1.4)
   - HIVendorManager (0.1.0):
     - AMap3DMap
     - AMapLocation
+    - AMapNavi
+    - AMapSearch
 
 DEPENDENCIES:
   - AMap3DMap
   - AMapLocation
+  - AMapNavi
+  - AMapSearch
   - HIVendorManager (from `../`)
 
 SPEC REPOS:
@@ -18,6 +26,8 @@ SPEC REPOS:
     - AMap3DMap
     - AMapFoundation
     - AMapLocation
+    - AMapNavi
+    - AMapSearch
 
 EXTERNAL SOURCES:
   HIVendorManager:
@@ -27,8 +37,10 @@ SPEC CHECKSUMS:
   AMap3DMap: be13191194c9aeb29a67d9d3e9a797588fb329aa
   AMapFoundation: 672dc3a4759cb733f447c1e1b020f7ba2729f4ab
   AMapLocation: b4162db67f813508a14ee7e05c7ee4073785221d
-  HIVendorManager: d0a8c97d3bd99f9c93dc9ecac5b573f91e6f5c7b
+  AMapNavi: 4667acc6dd1da5fee08aceb2071e1547efaf1bc5
+  AMapSearch: 6bd6d361c5eb00110e0bffa4acf88b7bb9f7e059
+  HIVendorManager: 315c15c520d4698fc7a5869c42ca1f65545dfac8
 
-PODFILE CHECKSUM: d971640b64c5e35785101f128f175dc973a5b674
+PODFILE CHECKSUM: 8d7fbdf01a4ac9894a322bddb26f99bb1a971878
 
 COCOAPODS: 1.8.4

@@ -4,6 +4,8 @@ target 'HIVendorManager_Example' do
   pod 'HIVendorManager', :path => '../'
   pod 'AMap3DMap'
   pod 'AMapLocation'
+  pod 'AMapNavi'
+  pod 'AMapSearch'
   target 'HIVendorManager_Tests' do
     inherit! :search_paths
 

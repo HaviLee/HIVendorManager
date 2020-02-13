@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1058695900@qq.com' => '1058695900@qq.com' }
-  s.source           = { :git => 'https://github.com/1058695900@qq.com/HIVendorManager.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/HaviLee/HIVendorManager.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -41,4 +41,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'AMapLocation'
   s.dependency 'AMap3DMap'
+  s.dependency 'AMapNavi'
+  s.dependency 'AMapSearch'
 end
